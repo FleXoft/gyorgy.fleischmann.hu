@@ -58,7 +58,6 @@ This could be the year for the real thing
 
 No more will you cry
 Baby, I will hurt you never
-
 We start and end as one
 In love forever
 We can ride it together, ah-ha
