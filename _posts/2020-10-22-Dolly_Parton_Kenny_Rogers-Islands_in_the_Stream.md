@@ -12,7 +12,7 @@ tags:     [muzax, video]
 {% include youtube.html ID="HQW7I62TNOw" %}
 
 <a id="top"></a>
-<div id="lyrics"><div class="lyricsheader" style=""><p><center><b>Dolly Parton and Kenny Rogers</b>:  Islands in the Stream</center></p></div>
+<div id="lyrics"><div class="lyricsheader" style=""><p><center><b>Dolly Parton and Kenny Rogers</b>: Islands in the Stream</center></p></div>
 <center><pre>
 Baby, when I met you
 There was peace unknown
