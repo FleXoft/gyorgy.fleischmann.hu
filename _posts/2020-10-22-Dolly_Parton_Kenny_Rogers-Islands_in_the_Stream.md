@@ -45,7 +45,7 @@ From one lover to another, ah-ha
 
 I can't live without you
 If the love was gone
-Everything is nothing
+Everything means nothing
 If you got no one
 And you just walk in the night
 Slowly losing sight of the real thing
