@@ -1,1 +1,536 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_",
+				"_ORIGINAL"
+			],
+			[
+				"or",
+				"originalFilename"
+			],
+			[
+				"open",
+				"opensearch"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"t",
+				"title\tAttr"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"return",
+				"returnString"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"text-col",
+				"text-decoration-color"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"fi",
+				"font-size"
+			],
+			[
+				"he",
+				"height\tAttr"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"hr",
+				"header\tTag"
+			],
+			[
+				"Fle",
+				"Fleischmann-né"
+			],
+			[
+				"bott",
+				"bottom"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ge",
+				"generalPage"
+			],
+			[
+				"uart_p",
+				"uart_puts_P"
+			],
+			[
+				"tem",
+				"temporary_buffer"
+			],
+			[
+				"mem",
+				"memcpy"
+			],
+			[
+				"emp",
+				"uart_wait_for_empty_buffer"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"em",
+				"uart_wait_for_emty_buffer"
+			],
+			[
+				"uar",
+				"uart_puts"
+			],
+			[
+				"lcd",
+				"lcd_clrscr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 89.0,
+		"last_filter": "Install Package",
+		"selected_items":
+		[
+			[
+				"Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packh",
+				"Package Control: Add Channel"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"color",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			],
+			[
+				"mat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/flex/GitHub/andras.fleischmann.hu/index.html",
+		"/Users/flex/bin/vpncli.sh",
+		"/Users/flex/Downloads/vpncli.sh",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/halaszcsarda_projekt.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2020-09-30-Gus_Gus-Full_Performance.md",
+		"/Users/flex/bin/iCaptureDuo.sh",
+		"/Users/flex/bin/fnxs_bl_vpn.sh",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2018-05-28-Amazon_Kindle_Voyage_FW.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2019-03-29-Talking_Heads-Stop_Making_Sense.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2018-02-06-cv.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2020-06-20-Valerie_Dore-The_Night.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2020-06-13-S40.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2020-05-26-2019_movies.md",
+		"/Users/flex/Dropbox/Alfred/Alfred.alfredpreferences/workflows/user.workflow.A96D2EFB-ACA5-4BDF-BBB9-151063379ACE/packal-controller-script.php",
+		"/Users/flex/Library/Application Support/Alfred 2/Workflow Data/com.packal/config/config.xml",
+		"/Users/flex/GitHub/JUSTIFY/README.md",
+		"/Users/flex/GitHub/notes.fleischmann.hu/css/style.scss",
+		"/Users/flex/GitHub/tofi.fleischmann.hu/index.html",
+		"/Users/flex/GitHub/hajnalka.fleischmann.hu/index.html",
+		"/Users/flex/GitHub/anyuka.fleischmann.hu/index.html",
+		"/Users/flex/GitHub/gergo.fleischmann.hu/index.html",
+		"/Users/flex/GitHub/old.fleischmann.hu/index.html",
+		"/Users/flex/GitHub/www.fleischmann.hu/index.html",
+		"/Users/flex/GitHub/anna.fleischmann.hu/index.html",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_layouts/default.html",
+		"/Users/flex/Dropbox/Alfred/Alfred.alfredpreferences/workflows/user.workflow.24D7A9BE-1C64-430F-A60F-92295154DCE5/scripts/login_check.workflow/Contents/document.wflow",
+		"/Users/flex/GitHub/andras.fleischmann.hu/_layouts/post.html",
+		"/Users/flex/GitHub/andras.fleischmann.hu/_posts/2018-01-01-ii.md",
+		"/Users/flex/GitHub/andras.fleischmann.hu/_site/ii.html",
+		"/Users/flex/GitHub/andras.fleischmann.hu/PhotoSwipe.pl",
+		"/Users/flex/Downloads/screenShots2018/iCaptureDuo.sh",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2019-05-05-en.md",
+		"/Users/flex/bin/ds.sh",
+		"/Users/flex/Downloads/Call.Me.by.Your.Name.2017.BDRip.x264-SPARKS (1).srt",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/opensearch.xml",
+		"/Users/flex/Downloads/o.html",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/css/style.scss",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2018-11-24-Hajnalka_HBD.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/css/_settings.scss",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2018-11-24-Hajnalka.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_drafts/movies.md",
+		"/Users/flex/Documents/vicc.txt",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/index.html",
+		"/Users/flex/Downloads/vicc.txt",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2018-01-29-cv.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_drafts/1970-05-05-timeline.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_drafts/muzaxLP.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_drafts/books.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_drafts/places.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_drafts/blogsvlog.md",
+		"/Users/flex/Downloads/Book1.csv",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/0000-01-01-jekyll_test_page.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_drafts/whats_in_my_bag.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_drafts/2017-09-11-books.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_includes/book_cover.html",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_drafts/iOSApps.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_drafts/videoGames.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_drafts/friends.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_drafts/macOSApps.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_drafts/2017-01-01-muzax.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_drafts/gadgets.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2018-01-01-cv.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_drafts/documentSeries.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_includes/movie_cover.html",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2018-01-23-TVSeries.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_layouts/post.html",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2018-01-01-html2017.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_drafts/TVSeries.md",
+		"/Users/flex/Downloads/EG2.htm",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2017-09-11-books.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/1970-05-05-timeline.md",
+		"/Users/flex/Downloads/x/2017-01-01-muzax.md",
+		"/Users/flex/bin/mtva_net.sh",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2017-01-01-cv.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2017-03-03-html2017.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/tableofcontents.html",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/categories.html",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/tags.html",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_layouts/blog_index.html",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2017-11-04-ulloi.md",
+		"/Users/flex/GitHub/anyuka.fleischmann.hu/anyuka.jpg",
+		"/Users/flex/GitHub/anyuka.fleischmann.hu/index.hu",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2017-11-01-whats_in_my_bag.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2017-01-01-muzax.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/0000-01-01-jekyll-big-test_page.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/0000-01-01-foto_teszt.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_config.yml",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_data/authors.yml",
+		"/Users/flex/GitHub/testjekyll/_posts/2017-03-03-html2017.md",
+		"/Users/flex/GitHub/gyorgy.fleischmann.hu/_posts/2017-04-04-jekyll-big-test.md",
+		"/Users/flex/GitHub/jekyll-minimal-theme/_posts/1970-05-05-timeline.md",
+		"/Users/flex/GitHub/jekyll-minimal-theme/_posts/2017-03-03-html2017.md",
+		"/Users/flex/GitHub/jekyll-minimal-theme/tableofcontents.html",
+		"/Users/flex/GitHub/jekyll-minimal-theme/categories.html",
+		"/Users/flex/Downloads/CreativeLinkEffects/css/component.css",
+		"/Users/flex/Downloads/fontello/demo.html",
+		"/Users/flex/GitHub/jekyll-minimal-theme/_posts/2017-04-04-big-test.md",
+		"/Users/flex/GitHub/jekyll-minimal-theme/_posts/0000-01-01-jekyll_test_page.md",
+		"/Users/flex/GitHub/jekyll-minimal-theme/_posts/2017-11-04-ulloi.md",
+		"/Users/flex/GitHub/jekyll-minimal-theme/_posts/2017-09-11-books.md",
+		"/Users/flex/GitHub/jekyll-minimal-theme/tags.html",
+		"/Users/flex/GitHub/jekyll-minimal-theme/_layouts/post.html",
+		"/Users/flex/GitHub/jekyll-minimal-theme/_layouts/photopost.html",
+		"/Users/flex/GitHub/jekyll-minimal-theme/_layouts/photo.html",
+		"/Users/flex/GitHub/jekyll-minimal-theme/_layouts/default.html",
+		"/Users/flex/GitHub/jekyll-minimal-theme/index.html",
+		"/Users/flex/GitHub/jekyll-minimal-theme/css/style.scss",
+		"/Users/flex/GitHub/old.fleischmann.hu/geocities.com/html/news/news01.htm",
+		"/Users/flex/GitHub/old.fleischmann.hu/geocities.com/html/mybook/start.htm",
+		"/Users/flex/GitHub/old.fleischmann.hu/geocities.com/html/mybook/tartalom.htm",
+		"/Users/flex/GitHub/old.fleischmann.hu/geocities.com/html/mybook/macho_grande.htm",
+		"/Users/flex/GitHub/old.fleischmann.hu/geocities.com/html/mybook/idezet.htm",
+		"/Users/flex/GitHub/old.fleischmann.hu/geocities.com/html/mybook/bevezetes.htm",
+		"/Users/flex/GitHub/old.fleischmann.hu/geocities.com/html/mybook/az_uj_gazdasag_regi_szabalya.htm",
+		"/Users/flex/GitHub/old.fleischmann.hu/geocities.com/html/mybook/Panasonic.htm",
+		"/Users/flex/GitHub/old.fleischmann.hu/geocities.com/html/mybook/Anna.htm",
+		"/Users/flex/GitHub/fleischmann.hu [test]/index.html",
+		"/Users/flex/GitHub/jekyll-minimal-theme/_posts/2017-03-03-html.md",
+		"/Users/flex/GitHub/jekyll-minimal-theme/_posts/2017-03-03-more_text.md",
+		"/Users/flex/GitHub/jekyll-minimal-theme/404.html",
+		"/Users/flex/GitHub/jekyll-minimal-theme/_posts/2017-01-01-muzax.md",
+		"/Users/flex/GitHub/jekyll-minimal-theme/archive.html",
+		"/Users/flex/Downloads/CreativeLinkEffects/index.html",
+		"/Users/flex/Downloads/CreativeLinkEffects/css/demo.css",
+		"/Users/flex/GitHub/jekyll-minimal-theme/tag.html",
+		"/Users/flex/GitHub/jekyll-minimal-theme/category.html",
+		"/Users/flex/GitHub/tsmadm.pl/tsmadm.pl/plugins/pogyo_plugin.pl",
+		"/Users/flex/GitHub/tsmadm.pl/docs/index.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"take",
+			"sony",
+			"before",
+			"(\\d\\d\\d\\d)",
+			"\\d\\d\\d\\d",
+			"\\.",
+			"fnxs",
+			"egID",
+			"fnxsID",
+			"work_eg",
+			"work_fnxs"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"($1)",
+			" "
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "gyorgy.fleischmann.hu.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"kindle",
+				"_posts/2018-05-28-Amazon_Kindle_Voyage_FW.md"
+			],
+			[
+				"cv.md",
+				"_posts/2018-02-06-cv.md"
+			],
+			[
+				"export",
+				"define scri export_ceva"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 51.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 378.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
