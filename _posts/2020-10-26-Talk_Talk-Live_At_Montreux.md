@@ -53,24 +53,27 @@ tags:     [muzax, video, full concert]
 		seekTo8.addEventListener( "click", function() { player.seekTo( 1888, true ); });
 
 		var seekTo9 = document.getElementById( "seekTo_9" );
+		seekTo9.addEventListener( "click", function() { player.seekTo( 1936, true ); });
+
+		var seekTo9 = document.getElementById( "seekTo_10" );
 		seekTo9.addEventListener( "click", function() { player.seekTo( 2376, true ); });
 
-		var seekTo10 = document.getElementById( "seekTo_10" );
+		var seekTo10 = document.getElementById( "seekTo_11" );
 		seekTo10.addEventListener( "click", function() { player.seekTo( 2621, true ); });
 
-		var seekTo11 = document.getElementById( "seekTo_11" );
+		var seekTo11 = document.getElementById( "seekTo_12" );
 		seekTo11.addEventListener( "click", function() { player.seekTo( 3091, true ); });
 
-		var seekTo12 = document.getElementById( "seekTo_12" );
+		var seekTo12 = document.getElementById( "seekTo_13" );
 		seekTo12.addEventListener( "click", function() { player.seekTo( 3433, true ); });
 
-		var seekTo13 = document.getElementById( "seekTo_13" );
+		var seekTo13 = document.getElementById( "seekTo_14" );
 		seekTo13.addEventListener( "click", function() { player.seekTo( 3887, true ); });
 
-		var seekTo14 = document.getElementById( "seekTo_14" );
+		var seekTo14 = document.getElementById( "seekTo_15" );
 		seekTo14.addEventListener( "click", function() { player.seekTo( 4209, true ); });
 
-		var seekTo15 = document.getElementById( "seekTo_15" );
+		var seekTo15 = document.getElementById( "seekTo_16" );
 		seekTo15.addEventListener( "click", function() { player.seekTo( 4720, true ); });
 
 	}
@@ -339,7 +342,33 @@ Everything's all right
 Everything's all right
 Life's what you make it
 
-<strong>Does Caroline Know</strong> (<a class="hvr-buzz-out" id="seekTo_8">31:28</a>)
+<strong>Mirror man</strong> (<a class="hvr-buzz-out" id="seekTo_8">31:28</a>)
+
+Out in the street today
+We're parading around
+We're the height of the fashion
+And she laughs 'cos we look the same
+And follow all of the rule
+
+Every little bit of my time
+Keeps me checking that my clothes are in line
+I'll identify without wasting time
+
+Mirror man
+
+Inside of her room today
+She's been working all hours
+For the final presentation
+Each day, dressed a different way
+She's the star of the road
+
+Every little bit of her time
+Keeps her checking that she stays out of line
+She'll wear anything you can't recognize
+
+Mirror man
+
+<strong>Does Caroline Know</strong> (<a class="hvr-buzz-out" id="seekTo_9">32:16</a>)
 
 Maybe when the heat's away you're fine
 To put another drink away is out of line, out of line
@@ -356,7 +385,7 @@ Does it matter if I can't say, Caroline knows, Caroline knows
 So easy with a thief to blame, for breaking every pledge I've made
 Does it matter if I can't say, does it matter if I can't say, Caroline knows
 
-<strong>It's You</strong> (<a class="hvr-buzz-out" id="seekTo_9">39:36</a>)
+<strong>It's You</strong> (<a class="hvr-buzz-out" id="seekTo_10">39:36</a>)
 
 Say it again
 Heart of stone
@@ -399,7 +428,7 @@ Why do lies about the girl bother you?
 It's you
 Tired of waiting to explain
 
-<strong>Living in Another World</strong> (<a class="hvr-buzz-out" id="seekTo_10">43:41</a>)
+<strong>Living in Another World</strong> (<a class="hvr-buzz-out" id="seekTo_11">43:41</a>)
 
 Better parted
 I see people crying
@@ -457,7 +486,7 @@ God only knows what kind of tale you'd tell
 (Living in another world to you)
 (Living in another world to you)
 
-<strong>Give It Up</strong> (<a class="hvr-buzz-out" id="seekTo_11">51:31</a>) 
+<strong>Give It Up</strong> (<a class="hvr-buzz-out" id="seekTo_12">51:31</a>) 
 
 From the place that I stand
 To the land that is openly free
@@ -521,7 +550,7 @@ You can do it
 You can do it
 Gotta give up
 
-<strong>It's My Life</strong> (<a class="hvr-buzz-out" id="seekTo_12">57:13</a>)
+<strong>It's My Life</strong> (<a class="hvr-buzz-out" id="seekTo_13">57:13</a>)
 
 Funny, how I find myself in love with you?
 If I could buy my reasoning, I'd pay to lose
@@ -563,7 +592,7 @@ Don't you forget
 Caught in the crowd
 It never ends
 
-<strong>I Don't Believe in You</strong>  (<a class="hvr-buzz-out" id="seekTo_13">1:04:47</a>) 
+<strong>I Don't Believe in You</strong>  (<a class="hvr-buzz-out" id="seekTo_14">1:04:47</a>) 
 
 Now the fun is over
 Where do words begin
@@ -598,7 +627,7 @@ I don't believe you
 I don't believe you
 I don't believe you
 
-<strong>Such a Shame</strong> (<a class="hvr-buzz-out" id="seekTo_14">1:10:09</a>)
+<strong>Such a Shame</strong> (<a class="hvr-buzz-out" id="seekTo_15">1:10:09</a>)
 
 Such a shame to believe in escape
 A life on every face
@@ -648,7 +677,7 @@ This eagerness to change
 
 Such a shame
 
-<strong>Renée</strong> (<a class="hvr-buzz-out" id="seekTo_15">1:18:40</a>)
+<strong>Renée</strong> (<a class="hvr-buzz-out" id="seekTo_16">1:18:40</a>)
 
 Well, baby how the weeks fade
 Baby, was the best part of your youth a sensation
