@@ -8,14 +8,15 @@ tags:     [amazon, kindle, voyage, firmware, ebook]
 
 <img class="shadow" src="images/Amazon/Amazon_Kindle_Voyage.png" style="width: 100%;" alt="Amazon Kindle Voyage" title="Amazon Kindle Voyage">
 
-https://www.amazon.com/gp/help/customer/display.html?linkCode=w61&imprToken=33qHBA9EsNYsa0pHQyaMoQ&slotNum=0&tag=mr060-20&nodeId=GKMQC26VQQMM8XSW
+[https://www.amazon.com/gp/help/customer/display.html?linkCode=w61&imprToken=33qHBA9EsNYsa0pHQyaMoQ&slotNum=0&tag=mr060-20&nodeId=GKMQC26VQQMM8XSW](https://www.amazon.com/gp/help/customer/display.html?linkCode=w61&imprToken=33qHBA9EsNYsa0pHQyaMoQ&slotNum=0&tag=mr060-20&nodeId=GKMQC26VQQMM8XSW)
 
-https://www.amazon.com/gp/help/customer/display.html?nodeId=201630670
+[https://www.amazon.com/gp/help/customer/display.html?nodeId=201630670](https://www.amazon.com/gp/help/customer/display.html?nodeId=201630670)
 
 Amazon Kindle Voyage 7th Generation Firmware történet / history:
 
 | Firmware verzió | dátum |
 |:-------------:|:---------------:|
+| [5.13.3](https://s3.amazonaws.com/firmwaredownloads/update_kindle_voyage_5.13.3.bin) | 2020-10-15 |
 | [5.13.2](https://s3.amazonaws.com/firmwaredownloads/update_kindle_voyage_5.13.2.bin) | 2020-08-28 |
 | [5.13.1](https://s3.amazonaws.com/firmwaredownloads/update_kindle_voyage_5.13.1.bin) | 2020-07-06 |
 | [5.12.5](https://s3.amazonaws.com/firmwaredownloads/update_kindle_voyage_5.12.5.bin) | 2020-04-23 |
