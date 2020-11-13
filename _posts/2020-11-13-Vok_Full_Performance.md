@@ -56,8 +56,6 @@ tags:     [muzax, video, full concert]
 <div id="lyrics"><div class="lyricsheader" style=""><p><center><b>Vök</b>: Full Performance (Live on KEXP)</center></p></div>
 
 <center><pre>
-Introduction</strong> (<a class="hvr-buzz-out" id="seekTo_1">0:37</a>)
-
 <strong>Waterfall</strong> (<a class="hvr-buzz-out" id="seekTo_1">0:37</a>)
 
 There's something about them
