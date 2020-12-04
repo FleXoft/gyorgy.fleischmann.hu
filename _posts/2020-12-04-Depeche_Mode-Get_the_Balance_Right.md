@@ -1,0 +1,67 @@
+---
+layout:   post
+title:    "Depeche Mode - Get the Balance Right! (Official Video)"
+author:   flex
+category: Muzax
+comments: false
+tags:     [muzax, video]
+---
+
+{% include jump2lyrics.html HREF="#top" %}
+
+{% include youtube.html ID="zfiISFiozg8" %}
+
+<!-- break -->
+
+<a id="top"></a>
+<div id="lyrics"><div class="lyricsheader" style=""><p><center><b>Depeche Mode</b>: Get the Balance Right!</center></p></div>
+<center><pre>
+There's more besides
+Joyrides
+The little house in the countryside
+Understand
+Learn to demand
+Compromise
+And sometimes lie
+
+Get the balance right
+Get the balance right
+
+Be responsible
+Respectable
+Stable but gullible
+Concerned and caring
+Help the helpless
+But always remain
+Ultimately selfish
+
+Get the balance right
+Get the balance right
+
+When you think you've got a hold of it all
+You haven't got a hold at all
+When you reach the top
+Get ready to drop
+Prepare yourself for the fall
+You're gonna fall
+It's almost predictable
+
+Almost
+
+Don't turn this way
+Don't turn that way
+Straight down the middle until next Thursday
+First to the left
+Then back to the right
+Twist and turn 'til you've got it right
+
+Get the balance right
+Get the balance right
+
+Get the balance right
+Get the balance right
+</pre>
+<a href="#top">⬆</a></center></div>
+
+<div class="sticky_floating_video"></div>
+{% include sticky_floating_video.html %}
