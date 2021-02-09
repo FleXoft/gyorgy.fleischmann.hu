@@ -14,7 +14,7 @@ tags:     [muzax, video]
 <!-- break -->
 
 <a id="top"></a>
-<div id="lyrics"><div class="lyricsheader" style=""><p><center><b>Peter Schilling</b>:The Different Story (World Of Lust And Crime)</center></p></div>
+<div id="lyrics"><div class="lyricsheader" style=""><p><center><b>Peter Schilling</b>: The Different Story (World Of Lust And Crime)</center></p></div>
 <center><pre>
 I'm so lonely on my way
 Waiting for a better day
