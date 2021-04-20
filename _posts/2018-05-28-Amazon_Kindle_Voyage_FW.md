@@ -8,9 +8,7 @@ tags:     [amazon, kindle, voyage, firmware, ebook]
 
 <img class="shadow" src="images/Amazon/Amazon_Kindle_Voyage.png" style="width: 100%;" alt="Amazon Kindle Voyage" title="Amazon Kindle Voyage">
 
-[https://www.amazon.com/gp/help/customer/display.html?linkCode=w61&imprToken=33qHBA9EsNYsa0pHQyaMoQ&slotNum=0&tag=mr060-20&nodeId=GKMQC26VQQMM8XSW](https://www.amazon.com/gp/help/customer/display.html?linkCode=w61&imprToken=33qHBA9EsNYsa0pHQyaMoQ&slotNum=0&tag=mr060-20&nodeId=GKMQC26VQQMM8XSW)
-
-[https://www.amazon.com/gp/help/customer/display.html?nodeId=201630670](https://www.amazon.com/gp/help/customer/display.html?nodeId=201630670)
+[Kindle E-Reader Software Updates](https://www.amazon.com/gp/help/customer/display.html?linkCode=w61&imprToken=33qHBA9EsNYsa0pHQyaMoQ&slotNum=0&tag=mr060-20&nodeId=GKMQC26VQQMM8XSW)
 
 Amazon Kindle Voyage 7th Generation Firmware történet / history:
 
