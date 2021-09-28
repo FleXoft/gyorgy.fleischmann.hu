@@ -63,7 +63,7 @@ header_spacer: 93
 
 - Új Sipos Halászkert
 
-- Náncsi Néni Vendéglője
+- Náncsi Néni Vendéglője, 2x (sajnos már nincs gyufatészta és bajai halászlé sem)
 
 - Halkakas halbisztró
 
