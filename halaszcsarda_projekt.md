@@ -40,6 +40,9 @@ header_spacer: 93
 - Piros Géza
 
 - Szalma Laura
+- Hajnik Ferenc
+
+- (Mihály Béla)
 
 ## Eddig meglátogatott halászcsárdák:
 
