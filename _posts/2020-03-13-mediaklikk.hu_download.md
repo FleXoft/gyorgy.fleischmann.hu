@@ -25,3 +25,5 @@ A megkapott linket másoljuk ki és a kedvenc módszerünkkel töltsük le és v
 wget https://hangtar-cdn.connectmedia.hu/20200307090500/20200307094000/mr1.mp3
 ffmpeg -ss "08:47.400" -to "15:40" -i "mr1.mp3" "Hajdu Balázs 2016 - Kidolgozott férfi test kontra vicces elme.mp3"
 </pre>
+
+Hogy az élet és az internet milyen meglepetéseket tartogat: **Sass Bálint** megcsinálta ezt egy web-es felületre kivezetve. A megoldása itt található: [https://radiovisszahallgato.github.io](https://radiovisszahallgato.github.io) Örökéletet neki! 😀
