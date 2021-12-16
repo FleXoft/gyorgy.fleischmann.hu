@@ -10,7 +10,7 @@ tags:     [muzax, video]
 {% include jump2lyrics.html HREF="#top" %}
 
 <div class="overridemaxwidthboth">
-{% include youtube.html ID="MEO6gYCFbr0" %}
+{% include youtube.html ID="kF_1x5gdXwM" %}
 </div>
 
 <a id="top"></a>
