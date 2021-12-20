@@ -42,7 +42,7 @@ header_spacer: 93
 - Szalma Laura
 - Hajnik Ferenc
 
-- (Mihály Béla)
+- (Mihály Béla, Oszkó "Burzum" Tibor)
 
 ## Eddig meglátogatott halászcsárdák:
 
