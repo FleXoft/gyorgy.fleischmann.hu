@@ -70,6 +70,8 @@ header_spacer: 93
 
 - Halkakas halbisztró
 
+- Spicy Fish Budapest
+
 <!-- PhotoSwipeGenerator.pl --directory photos/halaszcsarda_projekt/ --filetag _halaszcsarda_projekt --outdir _includes --imgproperty 'class="shadow zoomeffect"' --title 'Halászcsárda Projekt' -verbose -->
 
 {% include photorows.html TAG="halaszcsarda_projekt" %}
