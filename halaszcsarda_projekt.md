@@ -42,7 +42,7 @@ header_spacer: 93
 - Szalma Laura
 - Hajnik Ferenc
 
-- (Mihály Béla, Oszkó "Burzum" Tibor)
+- (Mihály Béla, Oszkó "Burzum" Tibor, Kolbert András)
 
 ## Eddig meglátogatott halászcsárdák:
 
@@ -52,7 +52,7 @@ header_spacer: 93
 - Dunaújvárosi Halászcsárda
 - Kigyósi Halászcsárda
 - Római Platán Étterem, 2x
-- Százhalombattai Halászcsárda
+- Százhalombattai Halászcsárda, 2x
 - Dunaföldvári Halászcsárda
 - Horgásztanya Vendéglő, 2300 Ráckeve, Keszeg sor 6.
 
@@ -68,7 +68,7 @@ header_spacer: 93
 
 - Náncsi Néni Vendéglője, 2x (sajnos már nincs gyufatészta és bajai halászlé sem)
 
-- Halkakas halbisztró
+- Halkakas halbisztró, 2x
 
 - Spicy Fish Budapest
 
@@ -84,23 +84,21 @@ header_spacer: 93
 
 - Révkapu vendéglő, Mohács, >5x
 - Peppinó pizzéria, Mohács, >4x
-- Alibi bistro, Mohács
+- Alibi bistro, Mohács, >4x
 - Kovács Csárda (KOVAČ Čarda), Csúza (Suza), >5x
 
 - Öreg Körössy Halászcsárda, Szeged 
 - Fehértói Halászcsárda
 
-- Új Sipos Halászkert
-
 - Sobri Halászcsárda, Baja
 
-# TOP 3 (2018, 2019)
+# TOP (2018...2022)
 
-1. Baracsi Halászcsárda
-2. Százhalombattai Halászcsárda
-3. Kigyósi Halászcsárda
-
-4. (Paksi Halászcsárda)
+Halkakas halbisztró
+Baracsi Halászcsárda
+Százhalombattai Halászcsárda
+Kigyósi Halászcsárda
+(Paksi Halászcsárda)
 
 <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAubcKvynd2lNrvNQHlTt6b7Q8OBxDzNOg'></script>
 
