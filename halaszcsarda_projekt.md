@@ -94,11 +94,11 @@ header_spacer: 93
 
 # TOP (2018...2022)
 
-Halkakas halbisztró
-Baracsi Halászcsárda
-Százhalombattai Halászcsárda
-Kigyósi Halászcsárda
-(Paksi Halászcsárda)
+- Halkakas halbisztró
+- Baracsi Halászcsárda
+- Százhalombattai Halászcsárda
+- Kigyósi Halászcsárda
+- (Paksi Halászcsárda)
 
 <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAubcKvynd2lNrvNQHlTt6b7Q8OBxDzNOg'></script>
 
