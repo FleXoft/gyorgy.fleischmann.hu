@@ -29,10 +29,10 @@ tags:     [muzax, video, full concert]
 
 	function onPlayerReady( event ) {
 		var seekTo2 = document.getElementById( "seekTo_1" );
-		seekTo2.addEventListener( "click", function() { player.seekTo( 100, true ); });
+		seekTo2.addEventListener( "click", function() { player.seekTo( 91, true ); });
 
 		var seekTo2 = document.getElementById( "seekTo_2" );
-		seekTo2.addEventListener( "click", function() { player.seekTo( 404, true ); });
+		seekTo2.addEventListener( "click", function() { player.seekTo( 401, true ); });
 
 		var seekTo3 = document.getElementById( "seekTo_3" );
 		seekTo3.addEventListener( "click", function() { player.seekTo( 639, true ); });
@@ -41,40 +41,40 @@ tags:     [muzax, video, full concert]
 		seekTo4.addEventListener( "click", function() { player.seekTo( 776, true ); });
 
 		var seekTo5 = document.getElementById( "seekTo_5" );
-		seekTo5.addEventListener( "click", function() { player.seekTo( 1007, true ); });
+		seekTo5.addEventListener( "click", function() { player.seekTo( 1269, true ); });
 
 		var seekTo6 = document.getElementById( "seekTo_6" );
-		seekTo6.addEventListener( "click", function() { player.seekTo( 1275, true ); });
+		seekTo6.addEventListener( "click", function() { player.seekTo( 1491, true ); });
 
 		var seekTo7 = document.getElementById( "seekTo_7" );
-		seekTo7.addEventListener( "click", function() { player.seekTo( 1527, true ); });
+		seekTo7.addEventListener( "click", function() { player.seekTo( 1744, true ); });
 
 		var seekTo8 = document.getElementById( "seekTo_8" );
-		seekTo8.addEventListener( "click", function() { player.seekTo( 1915, true ); });
+		seekTo8.addEventListener( "click", function() { player.seekTo( 2131, true ); });
 
 		var seekTo9 = document.getElementById( "seekTo_9" );
-		seekTo9.addEventListener( "click", function() { player.seekTo( 2227, true ); });
+		seekTo9.addEventListener( "click", function() { player.seekTo( 2442, true ); });
 
 		var seekTo10 = document.getElementById( "seekTo_10" );
-		seekTo10.addEventListener( "click", function() { player.seekTo( 2497, true ); });
+		seekTo10.addEventListener( "click", function() { player.seekTo( 2713, true ); });
 
 		var seekTo11 = document.getElementById( "seekTo_11" );
-		seekTo11.addEventListener( "click", function() { player.seekTo( 2890, true ); });
+		seekTo11.addEventListener( "click", function() { player.seekTo( 3106, true ); });
 
 		var seekTo12 = document.getElementById( "seekTo_12" );
-		seekTo12.addEventListener( "click", function() { player.seekTo( 3221, true ); });
+		seekTo12.addEventListener( "click", function() { player.seekTo( 3437, true ); });
 
 		var seekTo13 = document.getElementById( "seekTo_13" );
-		seekTo13.addEventListener( "click", function() { player.seekTo( 3571, true ); });
+		seekTo13.addEventListener( "click", function() { player.seekTo( 4226, true ); });
 
 		var seekTo14 = document.getElementById( "seekTo_14" );
-		seekTo14.addEventListener( "click", function() { player.seekTo( 3878, true ); });
+		seekTo14.addEventListener( "click", function() { player.seekTo( 4536, true ); });
 
 		var seekTo15 = document.getElementById( "seekTo_15" );
-		seekTo15.addEventListener( "click", function() { player.seekTo( 4186, true ); });
+		seekTo15.addEventListener( "click", function() { player.seekTo( 4846, true ); });
 
 		var seekTo16 = document.getElementById( "seekTo_16" );
-		seekTo16.addEventListener( "click", function() { player.seekTo( 4673, true ); });
+		seekTo16.addEventListener( "click", function() { player.seekTo( 5332, true ); });
 	}
                                     
 </script>
@@ -83,7 +83,7 @@ tags:     [muzax, video, full concert]
 <div id="lyrics"><div class="lyricsheader" style=""><p><center><b>Talking Heads</b>: Stop Making Sense (1984)</center></p></div>
 
 <center><pre>
-<strong>1. Psycho Killer</strong> (<a class="hvr-buzz-out" id="seekTo_1">1:40</a>)
+<strong>1. Psycho Killer</strong> (<a class="hvr-buzz-out" id="seekTo_1">1:31</a>)
 
 I can't seem to face up to the facts
 I'm tense and nervous and I
@@ -131,7 +131,7 @@ fa fa fa fa fa fa fa fa fa far better
 Run run run run run run run away
 oh oh oh oh oh oh oh oh....
 
-<strong>2. Heaven</strong> (<a class="hvr-buzz-out" id="seekTo_2">6:44</a>)
+<strong>2. Heaven</strong> (<a class="hvr-buzz-out" id="seekTo_2">6:42</a>)
 
 Everyone is trying to get to the bar.
 The name of the bar, the bar is called Heaven.
@@ -219,7 +219,7 @@ They've enlisted all their friends.
 It helped saved their relationship,
 And made it work again
 
-<strong>5. Slippery People</strong> (<a class="hvr-buzz-out" id="seekTo_5">16:47</a>)
+<strong>5. Slippery People</strong> (<a class="hvr-buzz-out" id="seekTo_5">16:48</a>)
 
 What about the time?
 You were rollin' over
@@ -265,7 +265,7 @@ How do you do?
 These slippery people
 Gonna see you through)
 
-<strong>6. Burning Down The House</strong> (<a class="hvr-buzz-out" id="seekTo_6">21:15</a>)
+<strong>6. Burning Down The House</strong> (<a class="hvr-buzz-out" id="seekTo_6">24:51</a>)
 
 Watch out, you might get what you're after
 Cool babies, strange but not a stranger
@@ -313,7 +313,7 @@ And I don't know what you expect
 Staring into the TV set
 Fighting fire with fire
 
-<strong>7. Life During Wartime</strong> (<a class="hvr-buzz-out" id="seekTo_7">25:27</a>)
+<strong>7. Life During Wartime</strong> (<a class="hvr-buzz-out" id="seekTo_7">29:04</a>)
 
 Heard of a van that is loaded with weapons,
 Packed up and ready to go
@@ -380,7 +380,7 @@ They won't help me survive
 My chest is aching, burns like a furnace,
 The burning keeps me alive
 
-<strong>8. Making Flippy Floppy</strong> (<a class="hvr-buzz-out" id="seekTo_8">31:55</a>)
+<strong>8. Making Flippy Floppy</strong> (<a class="hvr-buzz-out" id="seekTo_8">35:31</a>)
 
 Nothing can come between us
 Nothin gets you down
@@ -447,7 +447,7 @@ Lock the door
 We kill the beast
 Kill it!
 
-<strong>9. Swamp</strong> (<a class="hvr-buzz-out" id="seekTo_9">37:07</a>)
+<strong>9. Swamp</strong> (<a class="hvr-buzz-out" id="seekTo_9">40:42</a>)
 
 Now lemme tell you a story
 The devil he has a plan
@@ -506,7 +506,7 @@ I- We come to take you home
 Hi hi hi hi hi
 etc.
 
-<strong>10. What A Day That Was</strong> (<a class="hvr-buzz-out" id="seekTo_10">41:37</a>)
+<strong>10. What A Day That Was</strong> (<a class="hvr-buzz-out" id="seekTo_10">45:13</a>)
 
 Oh well, I'm dressed up so nice
 And I'm doing my best
@@ -580,7 +580,7 @@ And in a great big room and that's the way we live
 We're going boom, boom, boom and that's the way we live
 And in a great big room and that's the way we live
 
-<strong>11. This Must Be The Place (Naive Melody)</strong> (<a class="hvr-buzz-out" id="seekTo_11">48:10</a>)
+<strong>11. This Must Be The Place (Naive Melody)</strong> (<a class="hvr-buzz-out" id="seekTo_11">51:46</a>)
 
 Home is where I want to be
 Pick me up and turn me around
@@ -624,7 +624,7 @@ Eyes look through you
 Cover up the blank spots
 Hit me on the head
 
-<strong>12. Once In A Lifetime</strong> (<a class="hvr-buzz-out" id="seekTo_12">53:41</a>)
+<strong>12. Once In A Lifetime</strong> (<a class="hvr-buzz-out" id="seekTo_12">57:17</a>)
 
 And you may find yourself living in a shotgun shack
 And you may find yourself in another part of the world
@@ -736,7 +736,7 @@ Yeah, the twister comes
 Here comes the twister
 Same as it ever was...
 
-<strong>13. Genius Of Love</strong> (<a class="hvr-buzz-out" id="seekTo_13">59:31</a>)
+<strong>13. Genius Of Love</strong> (<a class="hvr-buzz-out" id="seekTo_13">1:10:53</a>)
 
 What you gonna do when you get out of jail?
 I'm gonna have some fun
@@ -782,7 +782,7 @@ he's got a greater depth of feeling
 Well he's the genius of love
 he's so deep.
 
-<strong>14. Girlfriend Is Better</strong> (<a class="hvr-buzz-out" id="seekTo_14">1:04:38</a>)
+<strong>14. Girlfriend Is Better</strong> (<a class="hvr-buzz-out" id="seekTo_14">1:15:36</a>)
 
 I . . . Who took the money?
 Who took the money away?
@@ -842,7 +842,7 @@ I got a girlfriend that's better than that
 And nothing is better that this
 ( is it? )
 
-<strong>15. Take Me To The River</strong> (<a class="hvr-buzz-out" id="seekTo_15">1:09:46</a>)
+<strong>15. Take Me To The River</strong> (<a class="hvr-buzz-out" id="seekTo_15">1:20:46</a>)
 
 I don't know why I love her like I do
 All the changes you put me through
@@ -882,7 +882,7 @@ Take me to the river and drop me in the water
 Dip me in the river, drop me in the water
 Washing me down, washing me down.
 
-<strong>16. Crosseyed And Painless</strong> (<a class="hvr-buzz-out" id="seekTo_16">1:17:53</a>)
+<strong>16. Crosseyed And Painless</strong> (<a class="hvr-buzz-out" id="seekTo_16">1:28:52</a>)
 
 Lost my shape - Trying to act casual!
 Can't stop-I might end up in the hospital
