@@ -29,16 +29,14 @@ header_spacer: 93
 - Dósa István, doffy
 - Szabó Miklós, szmiki
 - Fleischmann György, _flex
-
 - Polik György, pogyö
 - Batári Gábor
-
 - Szabó Marcell, szmarcell
 - Fügedi Zsolt, füge
 - Soós Zoltán, zsoos
-- Molnár Sándor Miklós
 - Piros Géza
 
+- Molnár Sándor Miklós
 - Szalma Laura
 - Hajnik Ferenc
 
@@ -71,6 +69,8 @@ header_spacer: 93
 - Halkakas halbisztró, 2x
 
 - Spicy Fish Budapest
+
+- Halas - Sziget Büfé Budapest
 
 <!-- PhotoSwipeGenerator.pl --directory photos/halaszcsarda_projekt/ --filetag _halaszcsarda_projekt --outdir _includes --imgproperty 'class="shadow zoomeffect"' --title 'Halászcsárda Projekt' -verbose -->
 
@@ -142,7 +142,9 @@ header_spacer: 93
 		[ 'Sobri Halászcsárda',				46.1779012, 18.9429255 ],
 
 		[ 'Halkakas halbisztró',			47.496568, 19.0657438, restaurant_icon ],
-
+		
+		[ 'Halas - Sziget Büfé Budapest',	47.5550922, 19.0601739, restaurant_icon ],
+		
 	];
 
 	if ( typeof google === 'object' && typeof google.maps === 'object' ) {
