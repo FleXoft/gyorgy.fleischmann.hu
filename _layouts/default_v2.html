@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+
+<!-- 
+#
+#      __    __              ______     _           __                                  __         
+#     / /_  / /___  ____ _  / __/ /__  (_)_________/ /_  ____ ___  ____ _____  ____    / /_  __  __
+#    / __ \/ / __ \/ __ `/ / /_/ / _ \/ / ___/ ___/ __ \/ __ `__ \/ __ `/ __ \/ __ \  / __ \/ / / /
+#   / /_/ / / /_/ / /_/ / / __/ /  __/ (__  ) /__/ / / / / / / / / /_/ / / / / / / / / / / / /_/ / 
+#  /_.___/_/\____/\__, (_)_/ /_/\___/_/____/\___/_/ /_/_/ /_/ /_/\__,_/_/ /_/_/ /_(_)_/ /_/\__,_/  
+#                /____/                                                                            
+# -----------------------------------------------------------------------------------------------------------
+#
+#
+# Jekyll based web page POC v2 on GitHub
+# 
+# 
+# ToDo:
+#
+#
+# Rls:      2022.06.01. v1.0
+#
+#
+# preRls:   2022.05.24.
+#
+#   Nem szerték már többet módosítani (default.html, post.html) rajta
+#
+#
+# betaRls:  2022.05.01.
+#
+#   Ötlet és Github projekt, fájlok létrehozása.
+#
+#
+-->
+
+<html lang="hu-HU">
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="xviewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="keywords" content="Fleischmann György, fleischmann, flex, gyurci, flexoft, mohács, budapest, magyarország, hungary, photography, digital, photo, black and white, landscape, people, blog, light, photo blog, photolog, photoblog, linux, sinclair, zx spectrum, psion, timex, perl, lcd, minolta, 9000, d7d, tsm, tivoli, ibm, tsm, tivoli storage manager, spectrum protect, gpfs, spectrum scale, osx, apple, ble" />
+
+  <meta name="owner"  content="FLEISCHMANN György" />
+  <meta name="author" content="FLEISCHMANN György" />
+
+  <meta name="description" content="A personal page for Fleischmann György."/>
+
+  <link href="https://gyorgy.fleischmann.hu/opensearch.xml" rel="search" title="gyorgy.fleischmann.hu" type="application/opensearchdescription+xml" />
+  
+  <link href="feed.xml" type="application/rss+xml" rel="alternate" title="Latest 10 blog posts (atom)" />
+
+  <!-- iOS Safari background color -->
+  <meta name="theme-color" content="#000000">
+    
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108075264-7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-108075264-7');
+  </script>
+  
+
+  <style type="text/css" />
+    
+    html {
+
+    }
+    
+    body {
+      margin: auto;
+      #margin-top:    .5%;
+      #margin-bottom: .5%;
+      max-width: 1792px;
+      
+      #font-family: sans-serif;
+      font-family: Avenir, "Helvetica Neue", Helvetica, Roboto, Corbel, sans-serif;
+      #font-family: courier;
+      #font-family: 'Courier New', monospace;
+      font-size: 160%;
+      font-weight: 400;
+      #line-height: 0;
+      #font-size: 1.8rem;
+      #-ms-text-size-adjust: 100%;
+      #-webkit-text-size-adjust: 100%;
+    }
+
+  .initial {
+    float: left;
+    display: block;
+    color: #903;
+    font-size: 118px;
+    line-height: 0.80em;
+    padding-top: 10px;
+    padding-right: 11px;
+    padding-left: 0px;
+    margin-left: -6px;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px #2a2f35;
+  }
+
+  .shadow {
+    -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.84);
+    -moz-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.84);
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.84);
+  }
+
+  div {
+    /* Debug */
+    border: 0px solid;    
+  }
+  
+  div.rightbox {
+    margin-left:   30px;
+    margin-bottom: 0;
+    margin-top:    0;
+    padding:       0;
+    float:         right;
+  }
+
+  div.rightboxalignment {
+    width:      30%; 
+    margin-top: 35px;"
+  }
+ 
+  div.leftbox {
+    margin-right:  30px;
+    margin-bottom: 0;
+    margin-top:    0;
+    padding:       0;
+    float:         left;
+  }
+  
+  div.leftboxalignment {
+    width:      30%; 
+    margin-top: 35px;"
+  }
+
+  p {
+    margin-bottom: 0;
+    text-align:    justify;
+  }
+
+  h1 {
+    font-size:     230%; 
+    margin-top:    0;
+    margin-bottom: 0;
+    font-weight:   900;
+  }
+  
+  h2 {
+    margin-top:     1em;
+    margin-bottom:  1rem;
+  }
+  
+  a, a:visited {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  
+  a:hover {
+    color: blue;
+    text-decoration: none;
+  }
+
+  p a, a:visited {
+    color: black;
+    text-decoration: underline;
+    font-weight: 400;
+  }
+  
+  p a:hover {
+    color: black;
+    text-decoration: none;
+  }
+
+  a.menu, a:visited.visited {
+    color: red;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  
+   a.menu:hover {
+    color: #0cc;
+    color: white;
+    text-decoration: none;
+  }
+  
+  strong {
+    color: #303030;
+  }
+  
+  ::selection {
+    background: #ffff0a;
+    background: #ff1dce;
+    background: #ccff00;
+    text-shadow: none;
+  }
+  
+  ul {
+    margin-bottom: 0px;
+    text-align:    justify;
+  }
+
+  blockquote {
+    font-style: italic;
+    border-left: 3px solid #666;
+    padding-left: 1em;
+    margin-left:  0em;
+    margin-right: 0em;
+    line-height: 1.6;
+  }
+
+  img {
+    width: 100%;
+    border: 0;
+    margin: 0;
+  }
+  
+  img.alignemnt {
+    margin-top: 1rem;
+  }
+
+  .leftside {
+    min-width: 280px;
+    width: 20%;
+    display: inline-block; 
+  }
+  
+  .leftside p {
+   text-align: right;
+  }
+ 
+  .rightside {
+    width: 80%;
+    margin: 0px;
+    display: inline-block;
+  }
+
+  .menupadding {
+    padding: 10px;
+  }
+
+  .contentcontainer { 
+    display: flex;
+  }
+
+  .contentleftside {
+    min-width: 280px;
+    width: 20%;
+    text-align: right;  
+  }
+
+  .contentrightside {
+    width: 80%;
+    margin: 0px;
+    display: inline-block;  
+  }
+
+  .contentpaddingleft {
+    padding:       58px;
+    padding-left:   0px;
+    padding-top:   40px;
+    padding-bottom: 0px;
+  }
+  
+  .contentpaddingright {
+    padding:        38px;
+    padding-top:    19px;
+    padding-bottom: 20px;
+  }
+
+  .tableofcontents {
+    column-count:  2; 
+    column-gap:   50px; 
+    column-rule:   2px solid lightgrey;
+  }
+  
+  .footnote {
+    font-size: 60%;
+  }
+  
+  ol {
+    margin-bottom: 0px;
+  }
+  
+  .footnotes {
+    clear: both;
+    padding: 0;
+    padding-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .footnotes p {
+    font-size: 0.95em;
+    color: #594f40;
+    line-height: 1.0;
+    margin-top:  0px;  
+  }
+  
+  .footnotes p:last-child {
+    margin-bottom: 0.65rem;
+  }
+  
+  .footnotes p:target {
+    background-color: #ffffeb;
+    padding: 3px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+  }
+  
+  .rainbow{
+    width: 100%;
+    height: 8px;
+    background-repeat:repeat-x;
+    background: linear-gradient(to right, #eb5252, #f78f2f, #f4c151, #75d850, #6284FF, #eb5252);
+    animation: rainbow 10s linear infinite;
+    background-size: 200% 100% !important;
+  }
+  @keyframes rainbow{
+    0% {background-position: 0;}
+    100% {background-position: 800% 0;}
+  }
+  
+  .rightfloatingbox {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    background-color: black;
+    z-index: 1;
+    opacity: 1;
+    #visibility: hidden;
+    #opacity: 0;
+    #transition: visibility 0s 1s, opacity 1s linear;
+    -webkit-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.84);
+    -moz-box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.84);
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.84);
+  }
+  
+  .photosource {
+    font-family: "Source Code Pro", Monaco, monospace;
+    font-size: 20px;
+  }
+  
+  /*
+  @media only screen and ( max-width: 800px ) {
+
+    body {
+      disabled_font-size: 1.7rem;
+    }
+    .contentcontainer { 
+      display: table;
+    }
+
+    .contentleftside {
+      width: 100%;
+      text-align: left;  
+    }
+
+    .contentrightside {
+      width: 100%;  
+    }
+
+    .contentpaddingleft {
+      padding: 20px;
+    }
+
+  .tableofcontents {
+      column-count:  1; 
+      column-gap:   50px; 
+      column-rule:   2px solid lightgrey;
+    }
+
+  }
+
+  @media only screen and ( max-device-width: 500px )  {
+
+    body {
+      font-size: 1.7rem;
+    }
+    .contentcontainer { 
+      display: table;
+    }
+
+    .contentleftside {
+      width: 100%;
+      text-align: left;  
+    }
+
+    .contentrightside {
+      width: 100%;  
+    }
+
+    .contentpaddingleft {
+      padding:  10px;
+      text-align: left;
+    }
+    
+    .tableofcontents {
+      column-count: 1; 
+      column-gap:  50px; 
+      column-rule:  2px solid lightgrey;
+    }
+
+  }
+  
+  */
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    margin-top: -0.7em;
+    float: left;
+    width: 23%;
+    padding: 1%;
+  }
+  
+  .column img {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 100%;
+  }
+  
+  .row {
+    margin-left: -1%;
+    margin-right: -1%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  pre {
+    margin-top: 0;
+    margin-bottom: .4;
+    padding: 0rem;
+    font-size: 1rem;
+    line-height: 1.4;
+    background-color: #ffffff;
+    white-space: pre-wrap;
+    /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;
+    /* Mozilla, since 1999 */
+    white-space: -pre-wrap;
+    /* Opera 4-6 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+    /* Internet Explorer 5.5+ */
+  }
+  
+  pre.terminal {
+    border: 2px solid black;
+    background-color: #333;
+    line-height: 1.25;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #17cc00;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-smoothing: subpixel-antialiased;
+    padding: 0.8em;
+    font-family: "Courier New", Courier, monospace;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  pre.terminal::selection {
+    background: #00ff00;
+    text-shadow: none;
+    color: black;
+  }
+  
+  pre.terminal a, .post pre.terminal a:hover, .post pre.terminal a:visited {
+    background-color: #333;
+    color: #17cc00;
+  }
+  
+  pre.terminal strong {
+    color: #00ff00;
+  }
+  
+  pre.terminal strong::selection {
+    background: #00ff00;
+    text-shadow: none;
+    color: black;
+  }
+  
+  </style>
+  
+  <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
+  
+  <!-- UI JS file -->  
+  <link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' /> 
+  <link rel='stylesheet' href='unitegallery/themes/default/ug-theme-default.css' type='text/css' /> 
+  
+  <script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>
+  <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script> 
+  <script type='text/javascript' src='unitegallery/themes/tiles/ug-theme-tiles.js'></script>
+
+</head>
+
+<body class="shadow">
+
+<!--
+<a href="https://fleischmann.hu/" title="fleischmann.hu"><center class="rightfloatingbox" style="padding: 5px; font-size: 60%; "><font color="#008f3f">F</font><br>
+<font color="#0057a6">L</font><br>
+<font color="#77147e">E</font><br>
+<font color="#f5a301">I</font><br>
+<font color="#e50005">S</font><br>
+<font color="#a8361e">C</font><br>
+<font color="#82cfed">H</font><br>
+<font color="#0191b4">M</font><br>
+<font color="#dd5e01">A</font><br>
+<font color="#777"   >N</font><br>
+<font color="#FFF"   >N</font><br>
+</center></a>
+-->
+
+<!-- Header -->
+<header style="background-repeat: no-repeat; background-size: cover; {{ page.headerBGposition }}
+  background-image:url({{ page.headerBGimage }});">
+
+  <!-- Menubar -->
+  <div style="width: 100%; white-space :nowrap; display: flex">
+    <div class="leftside" style="background: rgba( 0, 0, 0, 0.85 ); color: white; text-align: center; {{ page.menuLEFTStyleOverride }}">
+      <div class="menupadding">
+        
+{% if page.url == '/' %}gyorgy.<a class="menu" href="https://fleischmann.hu/" title="fleischmann.hu"><b>fleischmann.hu</b></a>{% else %}<a class="menu" href="/" title="Home" ><b>{{ site.title }}</b></a>{% endif %}
+              
+      </div>
+    </div>
+    <div class="rightside" style="background: rgba( 10, 10, 10, 0.70 ); color: white; text-align: left; {{ page.menuRIGHTStyleOverride }}">
+      <div class="menupadding">
+
+<!-- Debug button -->
+<script type="text/javascript">
+  
+  var s = document.styleSheets[0];
+
+  function changeStylesheetRule( selector, property, value ) {
+    selector = selector.toLowerCase();
+    property = property.toLowerCase();
+    value = value.toLowerCase();
+
+    for( var i = 0; i < s.cssRules.length; i++ ) {
+      var rule = s.cssRules[i];
+      if( rule.selectorText === selector ) {
+        rule.style[property] = value;
+        return;
+      }
+    }
+    
+    s.insertRule( selector + " { " + property + ": " + value + "; }", 0 );
+  }
+
+</script>
+
+<!--
+<button id="debugON"  onclick="changeStylesheetRule( 'div', 'border', '1px solid red' )">On</button> / 
+<button id="debugOFF" onclick="changeStylesheetRule( 'div', 'border', '0px solid' )">Off</button>
+-->
+
+      </div>
+    </div> 
+  </div>
+  
+  <!-- Main header -->
+  <div style="width: 100%; display: flex; height: {{ page.headerSIZE }};">
+
+{% if page.disableheaderLEFT != true %}
+    <div class="leftside" style="background: rgba( 0, 0, 0, 0.55 ); color: white; text-align: right; {{ page.headerMainLEFTStyleOverride }}">
+      <div class="menupadding" style="{{ page.headerLEFTStyleOverride }}">
+
+{{ page.headerLEFT }}
+
+      </div>  
+    </div>
+{% endif %}
+
+    <div class="rightside" style="position: relative; {{ page.headerMainRIGHTStyleOverride }}">
+      <div class="menupadding" style="{{ page.headerRIGHTStyleOverride }}">
+
+{{ page.headerRIGHT }}
+
+</div>
+
+      <!-- Bottom part -->
+      <div style="position: absolute; width: 100%; bottom: 0px; right: 0px; opacity: 0.75; {{ page.headerRIGHTbottomStyleOverride }}">
+
+{{ page.headerRIGHTbottom }}
+
+      </div>
+      <!-- End of bottom part  -->
+
+    </div>
+  </div>
+  <!-- End of Main Hheader -->
+
+</header>
+
+<!-- Content -->
+<div class="contentcontainer" style="width: 100%;">
+
+{% if page.disablecontentLEFT != true %}  
+    <div class="contentleftside" style="; background: rgba( 0, 0, 0, .5 ); {{ page.contentLEFTStyleOverride }}">
+      <div class="contentpaddingleft" style="{{ page.contentLEFTDateStyleOverride }};">
+      
+{% assign YEAR = page.date | date: "%Y" %}
+{% if YEAR != '0000' %}<div align="" class="post-date">{% assign m = page.date | date: "%-m" %}{{ page.date | date: "%Y., " }}{% case m %}{% when '1' %}január{% when '2' %}február{% when '3' %}március{% when '4' %}április{% when '5' %}május{% when '6' %}június{% when '7' %}július{% when '8' %}augusztus{% when '9' %}szeptember{% when '10' %}október{% when '11' %}november{% when '12' %}december{% endcase %}{{ page.date | date: " %-d." }}</div>{% endif %}
+
+      </div>    
+      <div class="contentpaddingleft" style="{{ page.contentpaddingLEFTStyleOverride }}">
+{{ page.contentLEFT }}
+      </div>
+      
+      <div class="contentpaddingleft" style="position: -webkit-sticky; position: sticky; top: 0px; {{ page.contentpaddingLEFTstickypartStyleOverride }}">
+{{ page.contentLEFTstickypart }}
+      </div>
+        
+    </div>
+{% endif %}
+   
+    <div class="contentrightside" style="background: rgba( 255, 255, 255, 1 ); {{ page.contentRIGHTStyleOverride }}">
+      
+{{ page.beforeContent }}
+      
+      <div class="contentpaddingright" style="{{ page.contentpaddingRIGHTStyleOverride }}">
+
+<a name="topofthepage"></a>
+{{ content }}
+
+      </div>
+
+{{ page.afterContent }}
+      
+    </div>
+</div>
+
+<!-- Footer -->
+<footer style="width: 100%;">
+  <div style=" padding: 15px; background: rgba( 240,  240, 240, 1 ); color: white; text-align: center;">
+    <span style="color: red">☆</span> <a href="#top" title="Back to Top">© 2022... Fleischmann György. No rights reserved.</a> <span style="color: red">☆</span>
+  </div>
+</footer>
+
+<a name="bottomofthepage"></a>
+
+</body>
+</html>
