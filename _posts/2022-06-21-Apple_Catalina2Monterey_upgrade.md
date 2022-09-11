@@ -4,7 +4,7 @@ title:    Upgrade from Apple macOS Catalina to Monterey
 author:   flex
 category: 2020...2022 (FNXS)
 tags:     [compúter, Apple, Catalina, Monterey, English]
-comments: false
+comments: true
 
 headerSIZE:       '420px'
 headerBGimage:   'images/Monterey/Apple_macOS_Monterey.png'

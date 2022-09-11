@@ -4,7 +4,7 @@ title:    Apple MacBook Pro 2019 16"
 author:   flex
 category: 2020...2022 (FNXS)
 tags:     [Apple, MacBook Pro]
-comments: false
+comments: true
 
 headerSIZE:       '0px'
 headerBGimagex:   ''
