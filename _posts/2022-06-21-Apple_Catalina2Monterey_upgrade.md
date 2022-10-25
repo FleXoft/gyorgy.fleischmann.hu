@@ -40,25 +40,29 @@ drivefs        466Gi  431Gi   34Gi    93% 18446744069414584742 4294967295 438164
 07:15:08 Wed Jun 15 [flex@MBP16:[~/Downloads] [0]
 </pre>
 
-<img src="images/Apple_MBP16_macOS_Catalina.png">
+<center>
+<img style="width:75%" src="images/Apple_MBP16_macOS_Catalina.png">
+</center>
 
 <hr>
 
 And here's what happened in pictures:
 
-<img src="images/Monterey/Monterey_upgrade_01.png">
-<img src="images/Monterey/Monterey_upgrade_02.png">
-<img src="images/Monterey/Monterey_upgrade_03.png">
-<img src="images/Monterey/Monterey_upgrade_04.png">
-<img src="images/Monterey/Monterey_upgrade_05.png">
-<img src="images/Monterey/Monterey_upgrade_06.png">
-<img src="images/Monterey/Monterey_upgrade_07a.png">
-<img src="images/Monterey/Monterey_upgrade_07b.png">
-<img src="images/Monterey/Monterey_upgrade_08.png">
-<img src="images/Monterey/Monterey_upgrade_09b.png">
-<img src="images/Monterey/Monterey_upgrade_09b.png">
+<center>
+<img style="width:75%" src="images/Monterey/Monterey_upgrade_01.png">
+<img style="width:75%" src="images/Monterey/Monterey_upgrade_02.png">
+<img style="width:75%" src="images/Monterey/Monterey_upgrade_03.png">
+<img style="width:75%" src="images/Monterey/Monterey_upgrade_04.png">
+<img style="width:75%" src="images/Monterey/Monterey_upgrade_05.png">
+<img style="width:75%" src="images/Monterey/Monterey_upgrade_06.png">
+<img style="width:75%" src="images/Monterey/Monterey_upgrade_07a.png">
+<img style="width:75%" src="images/Monterey/Monterey_upgrade_07b.png">
+<img style="width:75%" src="images/Monterey/Monterey_upgrade_08.png">
+<img style="width:75%" src="images/Monterey/Monterey_upgrade_09b.png">
+<img style="width:75%" src="images/Monterey/Monterey_upgrade_09b.png">
+</center>
 
-## Checklist after the upgrade process:
+Checklist after the upgrade process:
 
 - VPN CHECK: ✅
 - [Alfred 4 for Mac](https://www.alfredapp.com/) CHECK: ✅
@@ -85,15 +89,19 @@ $ brew cleanup
 
 - Time Machine backup CHECK: ✅
 
-<img src="images/Monterey/Time_Machine1.png">
-<img src="images/Monterey/Time_Machine2.png">
+<center>
+<img style="width:75%" src="images/Monterey/Time_Machine1.png">
+<img style="width:75%" src="images/Monterey/Time_Machine2.png">
+</center>
 
 - Apple Xcode upgrade (It took more than 3 hours and my Bluetooth test application didn't compile!!! 🤔) CHECK: ✅
 
-<img src="images/Xcode_v13.4/Xcode_01.png">
-<img src="images/Xcode_v13.4/Xcode_02.png">
-<img src="images/Xcode_v13.4/Xcode_03.png">
-<img src="images/Xcode_v13.4/Xcode_04.png">
+<center>
+<img style="width:75%" src="images/Xcode_v13.4/Xcode_01.png">
+<img style="width:75%" src="images/Xcode_v13.4/Xcode_02.png">
+<img style="width:75%" src="images/Xcode_v13.4/Xcode_03.png">
+<img style="width:75%" src="images/Xcode_v13.4/Xcode_04.png">
+</center>
 
 **UPDATE:** The compillation problem solved: [NSBluetoothAlwaysUsageDescription](https://developer.apple.com/documentation/bundleresources/information_property_list/nsbluetoothperipheralusagedescription) key was missing in Info.plist file.
 
