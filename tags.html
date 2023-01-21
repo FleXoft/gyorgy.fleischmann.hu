@@ -35,6 +35,7 @@ title:  '#címkék'
 {% assign tmptags = site.tags | sort %}
 {% for tag in tmptags %}
 {% assign fontsize = tag | last | size | times: 3 | plus: 80 %}
+{% assign boldfont = "" %}
 {% if fontsize > 225 %}
     {% assign fontsize = 225 %}
     {% assign boldfont = "font-weight: bold;" %}
