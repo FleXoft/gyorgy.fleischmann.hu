@@ -400,6 +400,7 @@ word-wrap: break-word;
 
 pre.terminal {
 border: 2px solid black;
+font-size:   .7em;
 background-color: #333;
 line-height: 1.25;
 -moz-border-radius: 3px;
