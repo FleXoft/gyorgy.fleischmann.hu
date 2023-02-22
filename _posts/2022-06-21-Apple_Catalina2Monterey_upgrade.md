@@ -62,7 +62,7 @@ And here's what happened in pictures:
 <img style="width:75%" src="images/Monterey/Monterey_upgrade_09b.png">
 </center>
 
-Checklist after the upgrade process:
+## Checklist after the upgrade process:
 
 - VPN CHECK: ✅
 - [Alfred 4 for Mac](https://www.alfredapp.com/) CHECK: ✅
