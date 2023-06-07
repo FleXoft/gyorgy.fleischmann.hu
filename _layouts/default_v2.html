@@ -68,19 +68,19 @@
   </script>
   
   <link rel="stylesheet" type="text/css" href="css/default_v2.css">
-  <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
+  <link rel="stylesheet" type="text/css" href="css/syntax.css" />
   
   <!-- UI JS file -->  
   <link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' /> 
   <link rel='stylesheet' href='unitegallery/themes/default/ug-theme-default.css' type='text/css' /> 
-  
+    
   <script type='text/javascript' src='unitegallery/js/jquery-11.0.min.js'></script>
   <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script> 
   <script type='text/javascript' src='unitegallery/themes/tiles/ug-theme-tiles.js'></script>
 
 </head>
 
-<body class="shadow">
+<body class="">
 
 <!--
 <a href="https://fleischmann.hu/" title="fleischmann.hu"><center class="rightfloatingbox" style="padding: 5px; font-size: 60%; "><font color="#008f3f">F</font><br>
@@ -99,19 +99,21 @@
 
 <!-- Header -->
 <header style="background-repeat: no-repeat; background-size: cover; {{ page.headerBGposition }}
-  background-image:url({{ page.headerBGimage }});">
+  background-image:url({{ page.headerBGimage }}); ">
 
   <!-- Menubar -->
-  <div style="width: 100%; white-space :nowrap; display: flex">
-    <div class="leftside" style="background: rgba( 0, 0, 0, 0.85 ); color: white; text-align: center; {{ page.menuLEFTStyleOverride }}">
+  <div id="menubar" style="width: 100%; white-space :nowrap; display: flex; opacity: 1;">
+    <div id="lmenubar" class="leftside" style="background: rgba( 0, 0, 0, 0.85 ); color: white; text-align: center; {{ page.menuLEFTStyleOverride }}">
       <div class="menupadding">
         
-{% if page.url == '/' %}notesz.<a class="menu" href="https://fleischmann.hu/" title="fleischmann.hu"><b>fleischmann.hu</b></a>{% else %}<a class="menu" href="/" title="Home" ><b>{{ site.title }}</b></a>{% endif %}
+{% if page.url == '/' %}notesz.<a class="menu" href="https://fleischmann.hu/" title="fleischmann.hu">fleischmann.hu</a>{% else %}<a class="menu" href="/" title="Home" >{{ site.title }}</a>{% endif %}
               
       </div>
     </div>
-    <div class="rightside" style="background: rgba( 10, 10, 10, 0.70 ); color: white; text-align: left; {{ page.menuRIGHTStyleOverride }}">
+    <div id="rmenubar" class="rightside" style="background: rgba( 10, 10, 10, 0.70 ); color: white; text-align: left; {{ page.menuRIGHTStyleOverride }}">
       <div class="menupadding">
+
+        <hr color="red" style="margin-top: 18px;" />
 
 <!-- Debug button -->
 <script type="text/javascript">
@@ -140,6 +142,36 @@
 <button id="debugON"  onclick="changeStylesheetRule( 'div', 'border', '1px solid red' )">On</button> / 
 <button id="debugOFF" onclick="changeStylesheetRule( 'div', 'border', '0px solid' )">Off</button>
 -->
+
+<!-- Arrow handler -->
+<script>
+  $( "body" ).keydown( function( e ) {
+    if( e.altKey == true ) {
+      return
+    }
+    
+    if( e.keyCode == 37 ) { 
+      // left
+      {% if page.url == '/' %}
+        window.location.href = "{{ site.posts.first.url }}";
+      {% else %}
+        window.location.href = "{% if page.previous.url %}{{ page.previous.url }}{% else %}/{% endif %}";
+      {% endif %}
+    }
+    else if( e.keyCode == 39 ) { 
+      // right
+      {% if page.url == '/' %}
+        window.location.href = "{{ site.posts.last.url }}";
+      {% else %}
+        window.location.href = "{% if page.next.url %}{{ page.next.url }}{% else %}/{% endif %}";
+      {% endif %}
+    }
+    else if( e.keyCode == 72 ) { 
+      // h
+      window.location.href = "/";
+    }
+  } )
+</script>
 
       </div>
     </div> 
@@ -180,7 +212,7 @@
 </header>
 
 <!-- Content -->
-<div class="contentcontainer" style="width: 100%;">
+<div class="contentcontainer" style="width: 100%; {{ page.contentcontainerStyleOverride }}">
 
 {% if page.disablecontentLEFT != true %}  
     <div class="contentleftside" style="; background: rgba( 0, 0, 0, .5 ); {{ page.contentLEFTStyleOverride }}">
