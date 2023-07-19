@@ -72,6 +72,8 @@ header_spacer: 93
 
 - Halas - Sziget Büfé Budapest
 
+- Spicy Fish Restaurant Budapest
+
 <!-- PhotoSwipeGenerator.pl --directory photos/halaszcsarda_projekt/ --filetag _halaszcsarda_projekt --outdir _includes --imgproperty 'class="shadow zoomeffect"' --title 'Halászcsárda Projekt' -verbose -->
 
 {% include photorows.html TAG="halaszcsarda_projekt" %}
@@ -91,6 +93,10 @@ header_spacer: 93
 - Fehértói Halászcsárda
 
 - Sobri Halászcsárda, Baja
+
+- Halászkert Étterem - Vác
+
+- Selyemház étterem Mohács
 
 # TOP (2018...2022)
 
@@ -144,6 +150,8 @@ header_spacer: 93
 		[ 'Halkakas halbisztró',			47.496568, 19.0657438, restaurant_icon ],
 		
 		[ 'Halas - Sziget Büfé Budapest',	47.5550922, 19.0601739, restaurant_icon ],
+		
+		[ 'Spicy Fish Restaurant',	        47.4804071, 19.124983, restaurant_icon ],
 		
 	];
 

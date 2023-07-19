@@ -6,7 +6,7 @@ body {
   margin: auto;
   #margin-top:    .5%;
   #margin-bottom: .5%;
-  max-width: 1792px;
+  
   
   #font-family: sans-serif;
   font-family: Avenir, "Helvetica Neue", Helvetica, Roboto, Corbel, sans-serif;
@@ -18,6 +18,10 @@ body {
   #font-size: 1.8rem;
   #-ms-text-size-adjust: 100%;
   #-webkit-text-size-adjust: 100%;
+}
+
+.maxw {
+  max-width: 1792px;
 }
 
 .initial {
