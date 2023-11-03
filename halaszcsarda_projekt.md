@@ -68,11 +68,11 @@ header_spacer: 93
 
 - Halkakas halbisztró, 2x
 
-- Spicy Fish Budapest
-
 - Halas - Sziget Büfé Budapest
 
 - Spicy Fish Restaurant Budapest
+
+- Halásztanya Étterem Kispest
 
 <!-- PhotoSwipeGenerator.pl --directory photos/halaszcsarda_projekt/ --filetag _halaszcsarda_projekt --outdir _includes --imgproperty 'class="shadow zoomeffect"' --title 'Halászcsárda Projekt' -verbose -->
 
@@ -147,11 +147,13 @@ header_spacer: 93
 
 		[ 'Sobri Halászcsárda',				46.1779012, 18.9429255 ],
 
-		[ 'Halkakas halbisztró',			47.496568, 19.0657438, restaurant_icon ],
+		[ 'Halkakas halbisztró',			47.496568, 19.0657438,  restaurant_icon ],
 		
 		[ 'Halas - Sziget Büfé Budapest',	47.5550922, 19.0601739, restaurant_icon ],
 		
-		[ 'Spicy Fish Restaurant',	        47.4804071, 19.124983, restaurant_icon ],
+		[ 'Spicy Fish Restaurant',	        47.4804071, 19.124983,  restaurant_icon ],
+
+		[ 'Halásztanya Étterem Kispest',	47.4528003, 19.1505363, restaurant_icon ],
 		
 	];
 
