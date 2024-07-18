@@ -74,6 +74,8 @@ header_spacer: 93
 
 - Halásztanya Étterem Kispest
 
+- Aranyhal Vendéglő Budapest
+
 <!-- PhotoSwipeGenerator.pl --directory photos/halaszcsarda_projekt/ --filetag _halaszcsarda_projekt --outdir _includes --imgproperty 'class="shadow zoomeffect"' --title 'Halászcsárda Projekt' -verbose -->
 
 {% include photorows.html TAG="halaszcsarda_projekt" %}
@@ -154,6 +156,8 @@ header_spacer: 93
 		[ 'Spicy Fish Restaurant',	        47.4804071, 19.124983,  restaurant_icon ],
 
 		[ 'Halásztanya Étterem Kispest',	47.4528003, 19.1505363, restaurant_icon ],
+
+		[ 'Aranyhal Vendéglő',	47.513927, 19.1029116, restaurant_icon ],
 		
 	];
 
