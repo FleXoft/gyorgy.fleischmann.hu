@@ -39,6 +39,7 @@ header_spacer: 93
 - Molnár Sándor Miklós
 - Szalma Laura
 - Hajnik Ferenc
+- Rendek Róbert
 
 - (Mihály Béla, Oszkó "Burzum" Tibor, Kolbert András)
 
@@ -75,6 +76,8 @@ header_spacer: 93
 - Halásztanya Étterem Kispest
 
 - Aranyhal Vendéglő Budapest
+
+- Horgásztanya vendeglő
 
 <!-- PhotoSwipeGenerator.pl --directory photos/halaszcsarda_projekt/ --filetag _halaszcsarda_projekt --outdir _includes --imgproperty 'class="shadow zoomeffect"' --title 'Halászcsárda Projekt' -verbose -->
 
@@ -158,6 +161,8 @@ header_spacer: 93
 		[ 'Halásztanya Étterem Kispest',	47.4528003, 19.1505363, restaurant_icon ],
 
 		[ 'Aranyhal Vendéglő',	47.513927, 19.1029116, restaurant_icon ],
+
+		[ 'Horgásztanya Vendéglő',	47.5021095,19.0365143, restaurant_icon ],
 		
 	];
 
