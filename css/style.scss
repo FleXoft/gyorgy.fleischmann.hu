@@ -1,7 +1,7 @@
 ---
 ---
 
-@use 'settings';
+@import 'settings';
 
 html { margin: 0 auto; min-width: 500px; }
 
@@ -52,7 +52,7 @@ a, a:visited { color: black; text-decoration: none; font-weight: 400; }
 a:visited { }
 a:hover      { color: blue;  text-decoration: none; }
 
-strong { color: settings.$strong-color; }
+strong { color: $strong-color; }
 
 ::selection {
   background: rgb(255, 255, 10);
@@ -181,13 +181,13 @@ hr.gradientstyle {
   margin-top:    0;
   margin-bottom: 0;
 
-  color: settings.$masthead-color;
+  color: $masthead-color;
 
-  a { color: settings.$masthead-color; }
+  a { color: $masthead-color; }
   a:hover { text-decoration: underline; }
   
   small {
-    color: settings.$masthead-small-color;
+    color: $masthead-small-color;
     font-size: 75%;
     font-weight: 400;
     letter-spacing: 0;    
@@ -265,12 +265,12 @@ hr.gradientstyle {
 }
 
 .post-date {
-  color: settings.$post-date-color;  
+  color: $post-date-color;  
 }
 
 .post-title,
 .post-title a {
-  color: settings.$post-title-color;
+  color: $post-title-color;
 }
 
 // footnote
@@ -538,7 +538,7 @@ img.shadowthumb100 {
 // Code
 
 code, pre {
-  font-family: settings.$code-font-family;
+  font-family: $code-font-family;
 }
 
 code {
@@ -552,7 +552,7 @@ pre {
   padding: 0rem;
   font-size: 1rem;
   line-height: 1.4;
-  background-color: settings.$pre-background-color;
+  background-color: $pre-background-color;
 
   white-space: pre-wrap;       /* Since CSS 2.1 */
   white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
@@ -640,7 +640,7 @@ table {
   margin-bottom: 1rem;
   width: 100%;
   
-  border: 1px solid settings.$table-border-color;
+  border: 1px solid $table-border-color;
   border-collapse: collapse;
 
   tr:hover {
@@ -649,7 +649,7 @@ table {
 
   td, th {
    padding: .25rem .5rem;
-   border: 1px solid settings.$table-border-color;
+   border: 1px solid $table-border-color;
   }
 
   th {
@@ -675,7 +675,7 @@ table.toc {
   }
   td, th {
    padding: .5rem .5rem;
-   border: 0px solid settings.$table-border-color;
+   border: 0px solid $table-border-color;
   }
 
   tr:nth-child(even) { background-color: #ffffff }
@@ -747,21 +747,21 @@ table.blockheader {
   //}  
 
 // html {
-//   font-family: settings.$font-family;
+//   font-family: $font-family;
 //   font-size:   20px;
 //   line-height: 1.5;
 // }
 
 // body {
-//   color:            settings.$body-color;
-//   background-color: settings.$body-background-color;
+//   color:            $body-color;
+//   background-color: $body-background-color;
 // }
 
 //////////////
 // Links
 // 
 // a {
-//   color:           settings.$link-color;
+//   color:           $link-color;
 //   text-decoration: none;
 // 
 //   strong {
@@ -781,7 +781,7 @@ table.blockheader {
 //   margin-bottom:  .5rem;
 //   font-weight:    bold;
 //   line-height:    1.25;
-//   color:          settings.$headings-color;
+//   color:          $headings-color;
 //   text-rendering: optimizeLegibility;
 // }
 // h1 {
