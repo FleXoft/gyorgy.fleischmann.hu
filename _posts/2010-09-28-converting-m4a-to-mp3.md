@@ -22,13 +22,16 @@ tags:
 - Mac
 comments: []
 ---
-<p>Use online converter like: <a href="http://media-convert.com/">http://media-convert.com/</a> or </p>
-<pre><font color="#00FF00" style="font-size:14px">sudo port install mplayer-devel lame
 
+<p>Use online converter like: <a href="https://vayce.app/tools/audio-converter/m4a-to-mp3/">https://vayce.app/tools/audio-converter/m4a-to-mp3/</a> or </p>
+
+<pre><font color="#000000" style="font-size:14px">sudo port install mplayer-devel lame
 for i in *.m4a
 do
   mplayer -ao pcm:file="$i.wav" "$i"
   lame -h -b 192 "$i.wav" "$i.mp3"
 done</font></pre>
+
 <p>Source: <a href="http://www.linuxquestions.org/questions/linux-general-1/converting-m4a-to-mp3-170553/">http://www.linuxquestions.org/</a></p>
+
 <p><a href='http://fleischmann.hu/wp/store/2010/09/20100926-085507.mp3'>20100926 085507</a></p>
